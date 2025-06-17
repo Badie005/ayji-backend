@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test d'accès aux PDFs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .pdf-container {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd;
+        }
+        .links {
+            margin-bottom: 20px;
+        }
+        .links a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test d'accès aux PDFs</h1>
+    
+    <div class="links">
+        <h2>Liens directs vers les PDFs:</h2>
+        <a href="/uploads/courses/cours1.pdf" target="_blank">Cours 1 (lien direct)</a>
+        <a href="/uploads/courses/cours2.pdf" target="_blank">Cours 2 (lien direct)</a>
+        <a href="/uploads/courses/cours3.pdf" target="_blank">Cours 3 (lien direct)</a>
+        <a href="/uploads/courses/cours4.pdf" target="_blank">Cours 4 (lien direct)</a>
+        <a href="/uploads/courses/cours5.pdf" target="_blank">Cours 5 (lien direct)</a>
+        <a href="/uploads/courses/cours6.pdf" target="_blank">Cours 6 (lien direct)</a>
+    </div>
+
+    <div class="pdf-container">
+        <h2>Cours 2:</h2>
+        <iframe src="/uploads/courses/cours2.pdf"></iframe>
+    </div>
+</body>
+</html>
