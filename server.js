@@ -42,9 +42,26 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware pour les logs et la sécurité
 app.use(morgan('dev'));
-app.use(helmet({ 
-  contentSecurityPolicy: false,
-  crossOriginResourcePolicy: { policy: "cross-origin" } // Permettre le chargement des ressources cross-origin
+app.use(helmet({
+  // Conserve le comportement actuel pour permettre le chargement des ressources cross-origin (utile en dev avec un front séparé)
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  // Active une politique CSP stricte et fonctionnelle
+  contentSecurityPolicy: {
+    useDefaults: true,
+    directives: {
+      "default-src": ["'self'"],
+      "base-uri": ["'self'"],
+      "font-src": ["'self'", "data:"],
+      "img-src": ["'self'", "data:"],
+      "object-src": ["'none'"],
+      "script-src": ["'self'"],
+      "script-src-attr": ["'none'"],
+      "style-src": ["'self'"],
+      "frame-ancestors": ["'self'"],
+      "upgrade-insecure-requests": []
+    }
+  }
+  // referrerPolicy: { policy: "no-referrer" } // Optionnel: renforcer la confidentialité
 }));
 
 // Configuration CORS pour permettre l'accès depuis Angular
