@@ -122,3 +122,6 @@ package-lock.json
 
 # Output of 'npm pack'
 *.tgz
+
+# Audit reports
+audit-report*.json
