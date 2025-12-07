@@ -1,21 +1,90 @@
-MIT License
+# Licence - Plateforme E-learning AYJI (Backend API)
 
-Copyright (c) 2025 Abdelbadie Khoubiza
+## Type de projet
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Projet personnel / académique**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Ce projet a été développé dans un cadre éducatif et personnel par **Abdelbadie Khoubiza**.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+## Conditions d'utilisation
+
+### Vous êtes autorisé à :
+
+- **Consulter** le code source à des fins d'apprentissage
+- **Forker** le projet pour un usage personnel ou éducatif
+- **Modifier** le code pour vos propres expérimentations
+- **Citer** ce projet dans des travaux académiques (avec attribution)
+- **Évaluer** ce code dans le cadre d'un processus de recrutement
+
+### Vous n'êtes PAS autorisé à :
+
+- **Utiliser commercialement** ce projet ou ses dérivés sans autorisation écrite
+- **Revendre** ou monétiser directement ce code
+- **Intégrer** dans un produit commercial sans permission
+- **Redistribuer** le code sans attribution appropriée
+- **Prétendre** être l'auteur original du projet
+- **Utiliser** le nom "AYJI" ou le branding associé pour d'autres projets
+
+---
+
+## Attribution
+
+Si vous utilisez ce code comme référence ou base pour vos propres projets, veuillez inclure l'attribution suivante :
+
+```
+Basé sur AYJI - Plateforme E-learning (Backend API)
+Développé par Abdelbadie Khoubiza
+https://github.com/Badie005/ayji-backend
+```
+
+---
+
+## Usage Commercial
+
+Pour toute utilisation commerciale ou professionnelle de ce projet, 
+veuillez me contacter pour obtenir une autorisation écrite.
+
+Je suis ouvert aux discussions concernant :
+- Licences commerciales spécifiques
+- Collaborations professionnelles
+- Utilisation dans des contextes d'entreprise
+
+---
+
+## Technologies utilisées
+
+- **Runtime** : Node.js
+- **Framework** : Express.js
+- **Base de données** : MongoDB / Mongoose
+- **Authentification** : JWT / Passport.js
+- **Documentation API** : Swagger
+- **Temps réel** : Socket.io
+
+---
+
+## Contact
+
+- **Auteur** : Abdelbadie Khoubiza
+- **GitHub** : [@Badie005](https://github.com/Badie005)
+- **Email** : [a.khoubiza.dev@gmail.com](mailto:a.khoubiza.dev@gmail.com)
+- **Portfolio** : [portfoliobadie.vercel.app](https://portfoliobadie.vercel.app)
+- **LinkedIn** : [Badie Khoubiza](https://www.linkedin.com/in/badie-khoubiza)
+
+**Projets liés** :
+- Frontend : [ayji-frontend](https://github.com/Badie005/ayji-frontend)
+- Backend : [ayji-backend](https://github.com/Badie005/ayji-backend)
+
+---
+
+## Date et Version
+
+Copyright © 2025 Abdelbadie Khoubiza - Tous droits réservés
+
+**Version de la licence** : 1.0  
+**Dernière mise à jour** : Décembre 2025
+
+---
+
+*Ce projet est fourni "tel quel", sans garantie d'aucune sorte. L'auteur ne peut être tenu responsable des dommages résultant de l'utilisation de ce logiciel.*
