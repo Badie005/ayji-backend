@@ -39,11 +39,11 @@ const clearDatabase = async () => {
 const seedDatabase = async () => {
   try {
     // Création d'un utilisateur
-    const hashedPassword = await bcrypt.hash('123456782005aA@', 12);
+    const hashedPassword = await bcrypt.hash('TestPassword123!', 12);
     const user = await User.create({
-      nom: 'Khoubiza',
-      prenom: 'Abdelbadie',
-      email: 'badiekhoubiza05@gmail.com',
+      nom: 'Test',
+      prenom: 'User',
+      email: 'user@example.com',
       password: hashedPassword,
       role: 'user'
     });
