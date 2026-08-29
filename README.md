@@ -1,6 +1,6 @@
 # AYJI Backend API
 
-[![License: Academic](https://img.shields.io/badge/License-Academic%20Project-blue.svg)](LICENSE)
+[![License: Academic](https://img.shields.io/badge/License-GNU%20AGPLv3-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-20+-339933?logo=node.js)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-4.x-000000?logo=express)](https://expressjs.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6+-47A248?logo=mongodb)](https://www.mongodb.com/)
